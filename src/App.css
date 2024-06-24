@@ -1,11 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,24 +10,75 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #dfd3c3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  margin-block: 60px;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #f0ece2;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.button:hover {
+  background-color: #c7b198;
+}
+
+.mainPicture {
+  width: 55%;
+  height: 55%;
+  border-radius: 25px;
+}
+
+.title {
+  color: #596e79;
+  font-size: 3.2rem
+}
+
+.infoBreed {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #596e79;
+  margin-right: 30px;
+  margin-top: 0;
+  font-size: 1.7rem;
+}
+
+.imageArticle {
+  width: 40%;
+  height: 40%;
+  border-radius: 25px;
+  margin-inline: 30px;
+}
+
+.articleContainer {
+  display: flex;
+  height: 90vh;
+}
+
+.breedTitle {
+  color: #596e79;
+  font-size: 2.5rem;
+}
+
+
+/* .App-link {
+  color: #61dafb;
+} */
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
